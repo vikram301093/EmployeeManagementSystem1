@@ -6,9 +6,9 @@ public class MyConnection {
 
 	 private Connection con;
 	 private static final String DRIVER_CLASS = "com.mysql.jdbc.Driver";
-	 private static final String URL = "jdbc:mysql://localhost:3306/employee_management_system";
-	 private static final String USER_NAME = "root";
-	 private static final String PASSWORD = "vikram123";
+	 private static final String URL = "jdbc:mysql://vikram301093.cl0uft8eytsx.ap-south-1.rds.amazonaws.com:3306/mysqlvikram";
+	 private static final String USER_NAME = "root301093";
+	 private static final String PASSWORD = "lap725top";
 	 public Connection getMyConnnection(){
 	  try {
 	   if(con == null || con.isClosed()){
